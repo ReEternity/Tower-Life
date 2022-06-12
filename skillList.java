@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.ArrayList;
 
 public class skillList{
     public ArrayList<skill> activeSkills = new ArrayList<>();

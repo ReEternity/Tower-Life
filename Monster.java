@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Random;
 public class Monster{
     private static int[] stats = new int[5];
     private static String[] name = new String[2];

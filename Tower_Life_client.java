@@ -1,5 +1,7 @@
 
-import java.util.*;
+import java.util.Collections;
+import java.util.Random;
+import java.util.Scanner;
 public class Tower_Life_client{
     public static String[] statsname = {"Health: ", "Magic: ", "Speed: ", "Strength: ", "Defense: "};
     public static int Floor;

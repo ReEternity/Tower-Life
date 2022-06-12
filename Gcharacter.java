@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Random;
 public class Gcharacter{
     public String name;
     public int Rarity;

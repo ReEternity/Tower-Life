@@ -1,5 +1,5 @@
 
-import java.util.*;
+import java.util.Random;
 public class Place{
     private String place;
     String[] place1 = {"Forest", "Woodland", "Jungle", "Forestland", "Ravine", "The Temple"};

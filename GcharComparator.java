@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Comparator;
 
 public class GcharComparator implements Comparator<Gcharacter>{
     public int compare(Gcharacter ch1, Gcharacter ch2){

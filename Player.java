@@ -1,5 +1,4 @@
-
-import java.util.*;
+import java.util.ArrayList;
 public class Player{
     //{Health, Mana, Speed, Strength, Defense}
     private int[] stats = new int[5];
