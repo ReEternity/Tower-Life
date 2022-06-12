@@ -1,10 +1,9 @@
 import java.util.*;
-import java.io.*;
 public class Monster{
     private static int[] stats = new int[5];
     private static String[] name = new String[2];
     private static boolean[] type = new boolean[2];
-    private static int level;
+    private int level;
     public static int rare;
     public static int rare2;
     private static Random mr = new Random();
@@ -22,7 +21,7 @@ public class Monster{
         
     }
     
-    private static void setName(){
+    private void setName(){
         if (Tower_Life_client.Floor<=10){
             String[] Species = {"Enhanced Cow", "Angry Pig", "Big Chicken", "Bandit", "The Goat"};
             name[0] = Species[mr.nextInt(5)];
@@ -56,7 +55,7 @@ public class Monster{
         }
     }
     
-    private static void setRarity(){
+    private void setRarity(){
         rare = mr.nextInt(10);
         rare2 = mr.nextInt(10);
         if (rare == rare2 || rare == 9){
@@ -76,7 +75,7 @@ public class Monster{
         }
     }
     
-    public static void setType(){
+    public void setType(){
         String[] types = {"Physical", "Spiritual"};
         String Mtypes = types[mr.nextInt(2)];
         if (Mtypes.equalsIgnoreCase("Physical")){

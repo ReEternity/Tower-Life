@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 public class Player{
     //{Health, Mana, Speed, Strength, Defense}
@@ -6,13 +6,12 @@ public class Player{
     private int[] MaxS = new int[5];
     private String name;
     private int level;
-    private Random pr = new Random();
     private int gold;
     private int days;
     //{Helmet(name + 5 stats), Chestplate(name + 5 stats), Leggings(name + 5 stats), Boots(name + 5 stats)
     //, Weapon(name + 5 stats), Accessary-maybe(name + 5 stats)}
-    private String[][] armor = new String[6][6];
-    private String[][] inv = new String[25][6];
+    //private String[][] armor = new String[6][6];
+    //private String[][] inv = new String[25][6];
     private int[] inv2 = new int[10];
     //{xp, xp limit, stats points, skill points, price for resetting}
     int[] currentXP = new int[5];

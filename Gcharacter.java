@@ -8,7 +8,6 @@ public class Gcharacter{
                                   ,{"Adam","Jimmy","Junjie","Thomas","Sarah","Brian","Eric","Jason"}
                                   ,{"Marques","■■■■", "□□□□","Kurumi","Grid","The Most Ancient Dream"}
                                   ,{"Kam", "God", "Dracula","Saitama","Fragments of the End"}};
-    private int stats;
     public Gcharacter(){
         name = getName();
         Copies = 1;

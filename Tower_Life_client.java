@@ -1,10 +1,10 @@
-import java.io.*;
+
 import java.util.*;
 public class Tower_Life_client{
     public static String[] statsname = {"Health: ", "Magic: ", "Speed: ", "Strength: ", "Defense: "};
     public static int Floor;
     public Object z = new Object();
-    public static void Main(){
+    public static void main(String[] arg){
         Tower_Life_client a = new Tower_Life_client();
         a.Connect();
         /*
@@ -28,13 +28,10 @@ public class Tower_Life_client{
 
         Place place = new Place();
         boolean[] BossNFound = {true, false};
-        Random r = new Random();
         boolean[] continu = {true};
         boolean town = false;
         boolean FloorIncomplete = true;
         boolean enterBossRoom = true;
-
-        int i = 1;
 
         System.out.println("Before you play, you should know this");
         System.out.println("Monster have 3 different types:");
@@ -50,9 +47,6 @@ public class Tower_Life_client{
         System.out.println("defense is your basic static damage nullifer(1 damage = 1 less damage taken)");
         System.out.println();
         System.out.println("You could also find the info in menu -> option 7");
-        System.out.println();
-        System.out.println();
-        System.out.println("For Mr. Marques Playing/Testing this, when you are fighting monsters, you can type \"Marques\" to skip");
         System.out.println();
         Scanner input = new Scanner(System.in);
         System.out.println("What is your name: ");
@@ -522,7 +516,6 @@ public class Tower_Life_client{
     public void gacha(Player player){
         boolean power = true;
         Scanner in = new Scanner(System.in);
-        Random r = new Random();
         int[] buff = new int[5];
         while (power){
             System.out.println("Do you want to pull? (1. 1 pull or 2. 10 pulls or 3. Custom pulls)");
